@@ -1,0 +1,30 @@
+h1{
+   font-size: 80px;
+   font-family: cursive;
+   text-align: center;
+   text-decoration: underline red;
+}
+
+.btns{
+   display: flex;
+   justify-content: space-around;
+}
+
+button{
+   height: 40px;
+   width: 80px;
+   margin: 25px;
+   background-color: black;
+   color: white;
+   font-size: larger;
+   font-style: italic;
+   font-weight: bolder;
+   cursor: pointer;
+   border-radius: 25px;
+   border: 2px solid red;
+   box-shadow: 3px 3px 20px red;
+}
+
+button:hover{
+   scale: 1.5;
+}
